@@ -5,7 +5,7 @@ body{
   position:relative;
   margin:0;padding:0;
   min-height: 100%;
-  background-color:#84D1D7;
+  background-color:#84a1d7;
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment:fixed;
@@ -112,7 +112,7 @@ button{
   margin-left:75%;
   border-radius:100px;
   border:none;
-  background-color:rgba(173,216,230) ;
+  background-color:rgba(173,216,230);
   width:4.5vmax;
   height:4.5vmax;
 }
@@ -143,17 +143,18 @@ margin:-1% 25% 0;height:15vmax;width:36%;z-index:2;
   position:absolute;
   display:flex;
   justify-content: center;
-  border:1px solid black;
   align-items: center;
-  font-size:1.6vmax;
+  border-radius: 0 0 5px 5px;
+  font-family:'Quicksand', sans-serif;
+  font-size:2vmax;
   margin-left:10%;
-  background-color:white;
+  background-color:rgb(0,210,250);
 }
 .hotel-image{
   height:22vmax;width:22vmax;margin-top:2% ;margin-left:2%; border-radius:5vmax;
 }
 @media only screen and (max-width: 660px) {
-.flightBox{height:23vmax;width:90%;margin-left:5%;}.down-color{height:11vmax;width:90%;}
+.flightBox{height:23vmax;width:90%;margin-left:5%;}.down-color{height:11vmax;width:90%;}.content-box{border-radius: 50px 50px 0px 0px}
 }
 @media only screen and (max-width: 750px) and (min-width:481px)  {
 button{margin:33% 73% 0%;}.content-box{margin-top:-0%;}

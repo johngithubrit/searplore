@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="css/main.css" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Search and Explore.. </title>
+  </head>
+  <body>
+    <img src="img/main-topbackground.png" alt="top-img"/>
+    <div class="para-txt">
+      <p class="top-txt">CHOOSE YOUR DREAM DESTINATION AT</p>
+      <p class="next-txt">AN AFFORDABLE RATE</p>
+            </div>
+      <form class="submit-text" action="/search" method= "POST">
+        <input type="text" name="searchFlight" placeholder="ENTER THE CITY CODE"/>
+        <button type="submit" name="button" style="display:flex; justify-content:center; align-items:center;z-index:4;"><img src="img/searchicon.png" alt="icon" style="width:60%;
+          position:absolute;"/></button>
+          </form>
+      <img class="logo-img-home" src="img/searplore-logo.png"/>
+      <div class="content-box" style="height:<%= kindOfBox %>">
+        <div class="search-results"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
+        <p><%= kindOfUnava %></p>
+        <% for(var i=0;i <= kindOflength-1; i++){ %>
+        <div class= "flightBox">
+      <img class="flight-img" src="https://content.airhex.com/content/logos/airlines_<%= kindOfAir[i] %>_500_100_r.png?"/>
+        <h1 class="origin-data"><%= kindOfOri[i] %></h1>
+          <img class="arrow-des" src="img/arrow.png"/>
+        <h1 class="destination-data"><%= kindOfDest[i] %></h1>
+          <div class= "down-color">
+            <h1 class="departure-des">Departure:-</h1><span class="span-dep">
+              <%= kindOfDept[i] %></span>
+                  <h1 class="return-des">Return:-</h1><span class="span-return"><%= KindOfReturn[i] %></span>
+          </div>
+          <div class="value-box">
+              <div class="num-border"><%= kindOfNum[i] %></div>
+            </div>
+            <div class="grey-radius">
+              <div class="price-des">$<%= kindOfPrice[i] %></div>
+              <div class="flightnum-des">Flight Number: <%= kindOfFlightN[i] %></div>
+              <div class="transfer-des" style="font-family:'Quicksand', sans-serif;font-weight:bold;margin-left:10%;margin-top:20%;text-align:center;padding-top:5%;font-size:1.3vmax;border-radius:1.5vmax 1.5vmax 0 0;width:80%;height:20%;background-color:#9CDBF4;">Transfers: <%= kindOfTransfers[i] %></div>
+            </div>
+        </div>
+      <% } %>
+  </div>
+  <script type="text/javascript" src="public/backend.js"></script>
+</body>
+</html>

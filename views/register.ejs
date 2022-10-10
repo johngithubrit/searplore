@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search and Explore.. </title>
+  <meta charset="utf-8">
+  <meta dir="ltr">
+  <link href="css/login.css" type="text/css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav>
+      <img class="logo-img" src="img/searplore-logo.png"/>
+      <ul>
+        <button class="login-anchor" ><a href="/login">Login</a></button>
+            <button class="register-anchor" href="" ><a href="/register">Register</a></button>
+        </ul>
+    </nav>
+    <div class="parent-box-div">
+    <div class="mainbox">
+      <form action="/register" method = "POST" class="text-boxx">
+      <label class="user">USERNAME</label><input name="username" type="text" placeholder="Username"/>
+      <label class="pass">PASSWORD</label><input name="password" type="password" placeholder="Password"/>
+      <button class="login-btn-style" type="submit" name="login-btn">REGISTER</button>
+      <div class="btn-design">
+        <a class="google-style" href="/auth/google" type="submit" name="google-btn"></a>
+    </div>
+      </form>
+     </div>
+   </div>
+   <script type="text/javascript" src="backend.js"></script>
+    </body>
+</html>

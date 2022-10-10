@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 5000
 const express = require("express");
 const axios = require("axios");
 const bodyParser = require("body-parser");
@@ -207,12 +208,7 @@ app.use(express.static("public"));
       });
     });
 
-    let port = process.env.PORT;
-    if (port == null || port == "") {
-      port = 8000;
-    }
-app.listen(port);
 
-app.listen(port,function(){
+app.listen(PORT,function(){
   console.log("server has started successfully.");
 });

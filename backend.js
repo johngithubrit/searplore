@@ -39,7 +39,7 @@ app.use(express.static("public"));
     app.use(passport.initialize());
     app.use(passport.session());
 
-    mongoose.connect("mongodb://localhost:27017/loginDB",{useNewUrlParser: true});
+    mongoose.connect("mongodb+srv://admin-fevin:Test123@firstcluster0.4trarva.mongodb.net/?retryWrites=true&w=majority/loginDB",{useNewUrlParser: true});
     const loginSchema = new mongoose.Schema({
       email: String,
       password: String

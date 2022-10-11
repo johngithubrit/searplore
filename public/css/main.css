@@ -153,10 +153,13 @@ margin:-1% 25% 0;height:15vmax;width:36%;z-index:2;
 .hotel-image{
   height:22vmax;width:22vmax;margin-top:2% ;margin-left:2%; border-radius:5vmax;
 }
-@media only screen and (max-width: 660px) {
-.flightBox{height:23vmax;width:90%;margin-left:5%;}.down-color{height:11vmax;width:90%;}.content-box{border-radius: 50px 50px 0px 0px}
+@media only screen and (max-width: 600px)  and (orientation:portrait){
+.flightBox{height:23vmax;width:90%;margin-left:5%;}.down-color{height:11vmax;width:90%;}
+.content-box{border-radius: 50px 50px 0px 0px}.grey-radius{height:14vmax;width:15vmax;margin-top:10vmax;}
+.origin-data{font-size:1.5vmax;margin-left:28%;}.destination-data{font-size:1.5vmax;}.arrow-des{height:11vmax;width:25%;margin-left:30%;}
+.flight-img{height:4.2vmax;width:14vmax;}
 }
-@media only screen and (max-width: 750px) and (min-width:481px)  {
+/* @media only screen and (max-width: 750px) and (min-width:481px)  {
 button{margin:33% 73% 0%;}.content-box{margin-top:-0%;}
 .grey-radius{height:15vmax;width:16vmax;margin-top:11.5%;margin-left:52%;}
 .origin-data{font-size:2vmax;}.destination-data{font-size:2vmax;}
@@ -165,6 +168,9 @@ button{margin:33% 73% 0%;}.content-box{margin-top:-0%;}
 .arrow-des{margin:-2.7% 27% 0;height:16vmax;width:30%;}
 .departure-des{font-size:1.3vmax;}.return-des{font-size:1.3vmax;}
 .span-dep{font-size:1vmax;margin:-3% 22% 0;} .span-return{font-size:1vmax;margin:-3% 18% 0;}
+} */
+@media only screen and (max-width: 700px) {
+.span-dep{margin-left:22%;font-size:1.3vmax;}.span-return{margin-left:18%;font-size:1.3vmax;}
 }
 @media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
 .down-color{
@@ -184,28 +190,31 @@ button{margin:33% 73% 0%;}
       .value-box{margin-left:-7%}
 }
 @media only screen and (max-width:480px){
-  .flightBox{height:15vmax;}.logo-img-home{width:6vmax;height:6vmax; margin-top:2.5%;}
-  .content-box{margin-top:-12vmax;border-radius:20px 20px 0 0;}.top-txt{font-size:1.4vmax;margin-top:12%;-webkit-text-stroke:0.1vmax;
-    -webkit-text-stroke-color:black;}
-  .next-txt{font-size:1.4vmax;margin-bottom:-3%;-webkit-text-stroke:0.1vmax;-webkit-text-stroke-color:black;}
+  .flightBox{height:17.5vmax;}.logo-img-home{width:6vmax;height:6vmax; margin-top:2.5%;}
+  .content-box{margin-top:-12vmax;}
+  .top-txt{font-size:2vmax;margin-top:9%;}
+  .next-txt{font-size:2vmax;}
   input[type="text"]{width:61.5%;height:3.2vmax;}input::placeholder{font-size:0.8vmax;}
-  button{width:2.5vmax;height:2.5vmax;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:13.5% 56% 0;}
+  button{width:2.5vmax;height:2.5vmax;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
 .flightnum-des{font-size:1vmax;}.num-border{height:2vmax;width:2vmax;font-size:1vmax;padding-top:5%;}
-.flight-img{height:2.5vmax;width:8vmax;margin:3% 6% 0;}.down-color{margin-top:20%;height:7vmax;}
+.flight-img{height:2.5vmax;width:8vmax;margin:3% 6% 0;}.down-color{margin-top:9.5vmax;height:8vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:0.7vmax;margin:-2.4% 20% 0%;}
   .span-return{font-size:0.7vmax;margin:-2.4% 16% 0%;}.origin-data{font-size:1.4vmax;margin:3.5% 28% 0;}
     .destination-data{font-size:1.4vmax;margin:3.5% 50% 0;}.value-box{width:7vmax;height:4vmax;}
     .return-data{font-size:1.4vmax;}.price-des{font-size:2vmax;}.arrow-des{margin:1.5% 33% 0;height:5vmax;width:10vmax;}
 }
-@media only screen and (max-width:480px) and (orientation:landscape) {
-  .content-box{margin-top:10vmax;}
-  .flightBox{height:20vmax;}.down-color{height:12vmax;margin-top:9%;}.grey-radius{margin:11.3% 62% 0;}.span-dep{margin:-1.5% 14% 0;}.span-return{margin:-1.4% 11% 0;}
-  input[type="text"]{height:4vmax;}.value-box{margin-left:-4%;}
+@media only screen and (max-width:481px) and (orientation:landscape) {
+  .content-box{margin-top:10vmax;border-radius:50px 50px 0 0;}.departure-des{font-size:1.4vmax;}.return-des{font-size:1.4vmax;}
+  .flight-img{height:3vmax;width:9vmax;}
+  .span-dep{margin:-2.4% 18% 0;font-size:1.4vmax;}.span-return{margin:-2.4% 15% 0;font-size:1.4vmax}
+  .flightBox{height:20vmax;}.down-color{height:12vmax;margin-top:9%;}.grey-radius{margin:8.3% 62% 0;height:13vmax;width:14vmax;}
+  input[type="text"]{height:4vmax;}.value-box{margin-left:-3.2%;}.origin-data{font-size:2vmax;margin-left:20vmax;}
+  .destination-data{font-size:2vmax;margin-left:40vmax;}.arrow-des{margin:-0.2% 25% 0;height:12vmax;width:20vmax;}
 }
 @media only screen and (max-width:320px) and (min-width:240px){
-  input[type="text"]{width:60.5%;height:5.2vmax;}button{height:4vmax;width:4vmax;}
-.grey-radius{height:11vmax;width:12vmax;margin:14% 60% 0;}.flightBox{height:20vmax;}
-.departure-des{font-size:1.5vmax;}.return-des{font-size:1.5vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}
+  input[type="text"]{width:64.5%;height:4.2vmax;}button{height:3vmax;width:3vmax;}
+.grey-radius{height:8vmax;width:9vmax;margin:8vmax 55% 0;}.flightBox{height:17vmax;}
+.departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}
   .span-return{font-size:1vmax;margin:-3% 18% 0%;}
-.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{margin-top:12.2%;height:13vmax;}
+.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{margin-top:9vmax;height:8vmax;opacity:50%;}
 }

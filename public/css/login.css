@@ -123,7 +123,7 @@ button:hover{
 }
 /* Tablets portrait mode */
 
-@media only screen and (max-width:900px) and (min-width:200px){
+@media only screen and (max-width:900px) and (min-width:200px) and (orientation:portrait){
   body{
   background-image:url("../img/login-mobile.png");
   background-repeat: no-repeat;
@@ -131,6 +131,7 @@ button:hover{
   background-position: 40%, 100%;
   background-attachment:fixed;
   }
+  ul{margin-top:6%;}.logo-img{margin:3% 2% 0;}
 }
 @media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
       label{margin-left:-35%;}
@@ -162,7 +163,7 @@ button:hover{
     }input::placeholder{
       font-size:1.6vmax;
     } */
-    ul{margin-top:7%;}
+    ul{margin-top:6%;}
     /* .login-btn-style{
       top:56%;left:35%;
     } */
@@ -173,23 +174,31 @@ button:hover{
       .mainbox{width:37vmax;}
       a{text-align: center;}
     } */
+  }
     @media only screen and (max-width:480px) and (orientation:landscape) {
       .mainbox{border-radius:10px;}
       .btn-design{margin-top:4.4%;}
 
     }
     @media only screen and (max-width:425px) {
-      .mainbox{height:35vmax;width:40vmax;}
+      .mainbox{height:35vmax;width:37vmax;}
     }
-  @media only screen and (max-width:321px) and (min-width:240px) and (orientation:portrait){
+  @media only screen and (max-width:344px) and (min-width:240px) and (orientation:portrait){
     .logo-img{margin:2% 2% 0;}
-    .mainbox{width:40vmax;border-radius:30px;}
+    .mainbox{width:38vmax;border-radius:30px;}
   }
-  @media only screen and (max-width:356px){
+  @media only screen and (max-width:396px){
     .login-anchor{position:absolute;right:30%;}
   }
-  @media only screen and (max-width:316px){
-    .mainbox{width:38vmax;}
+
+  @media only screen and (min-width:1400px) and (min-height:800px){
+    .mainbox{top:60%;position:absolute;}
+  }
+  @media only screen and (min-width:2000px) and (max-width:3000px){
+    .mainbox{top:70%;position:absolute;}
+  }
+  @media only screen and (min-width:2400px) and (max-width:3000px){
+    .mainbox{top:90%;}
   }
   /* @media only screen and (max-width:321px) and (orientation:landscape){
     .mainbox{border-radius:10px;}

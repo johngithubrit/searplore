@@ -211,7 +211,8 @@ button{margin:33% 73% 0%;}
   input[type="text"]{height:4vmax;}.value-box{margin-left:-3.2%;}.origin-data{font-size:2vmax;margin-left:20vmax;}
   .destination-data{font-size:2vmax;margin-left:40vmax;}.arrow-des{margin:-0.2% 25% 0;height:12vmax;width:20vmax;}
 }
-@media only screen and (max-width:320px) and (min-width:240px){
+
+@media only screen and (max-width:320px) and (min-width:240px) and (orientation:portrait){
   input[type="text"]{width:64.5%;height:4.2vmax;}button{height:3vmax;width:3vmax;}
 .grey-radius{height:8vmax;width:9vmax;margin:8vmax 55% 0;}.flightBox{height:17vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}

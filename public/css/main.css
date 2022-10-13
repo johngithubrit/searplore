@@ -192,8 +192,8 @@ button{margin:33% 73% 0%;}
 @media only screen and (max-width:480px){
   .flightBox{height:17.5vmax;}.logo-img-home{width:6vmax;height:6vmax; margin-top:2.5%;}
   .content-box{margin-top:-12vmax;}
-  .top-txt{font-size:2vmax;margin-top:9%;}
-  .next-txt{font-size:2vmax;}
+  .top-txt{font-size:1.2vmax;margin-top:14%;}
+  .next-txt{font-size:1.2vmax;}
   input[type="text"]{width:61.5%;height:3.2vmax;}input::placeholder{font-size:0.8vmax;}
   button{width:2.5vmax;height:2.5vmax;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
 .flightnum-des{font-size:1vmax;}.num-border{height:2vmax;width:2vmax;font-size:1vmax;padding-top:5%;}

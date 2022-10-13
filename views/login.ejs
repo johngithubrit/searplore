@@ -9,7 +9,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-245172337-1');
-$("html").css({"font-size": ($(window).height()/25)+"px"});
+
 </script>
 <meta name="google-site-verification" content="2fwIF7KRmXSqP80k5r0U1Vc1aorWpuzaoL0ypLdRDrY" />
 
@@ -21,19 +21,18 @@ $("html").css({"font-size": ($(window).height()/25)+"px"});
   <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-
   </head>
   <body>
     <nav>
       <img class="logo-img" src="img/searplore-logo.png"/>
       <ul>
-        <button class="login-anchor"><a href="/login">Login</a></button>
+        <button class="login-anchor"><a href="/">Login</a></button>
             <button class="register-anchor" ><a href="/register">Register</a></button>
         </ul>
     </nav>
     <div class="parent-box-div">
     <div class="mainbox">
-      <form action="/login" method = "POST" class="text-boxx">
+      <form action="/" method = "POST" class="text-boxx">
       <label class="user">USERNAME</label><input name="username" type="text" placeholder="Username"/>
       <label class="pass">PASSWORD</label><input name="password" type="password" placeholder="Password"/>
       <button class="login-btn-style" type="submit" name="login-btn">LOGIN</button>

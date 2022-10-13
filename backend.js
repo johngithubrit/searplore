@@ -137,7 +137,7 @@ app.use(express.static("public"));
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
         kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfUnava:unavaResults});
       }else{
-        res.redirect("/login");
+        res.redirect("/");
       }
     }).catch(function (error) {
       res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
@@ -171,7 +171,7 @@ app.use(express.static("public"));
       res.redirect("/search");
         });
 
-    app.get("/login", function(req, res){
+    app.get("/", function(req, res){
       res.render("login");
     });
     app.get("/register", function(req, res){
@@ -190,7 +190,7 @@ app.use(express.static("public"));
         }
       });
     });
-    app.post("/login", function(req, res){
+    app.post("/", function(req, res){
       const login = new Login({
         username: req.body.username,
         password: req.body.password,
@@ -199,7 +199,7 @@ app.use(express.static("public"));
       req.login(login, function(err){
         if(err){
           console.log(err);
-            res.redirect("/login");
+            res.redirect("/");
         } else{
           passport.authenticate("local")(req, res, function(){
             res.redirect("/search");

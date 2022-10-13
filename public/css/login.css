@@ -144,7 +144,7 @@ button:hover{
 }
 
   @media only screen and (max-width:480px) and (orientation:portrait){
-  /* .mainbox{height:42.4vmax;width:90%;} */
+  /* .mainbox{height:40vmax;width:40vmax} */
   /* .user{
     margin:4.7vmax -35% 0;
     font-size:2vmax;
@@ -192,7 +192,7 @@ button:hover{
     .logo-img{margin:2% 2% 0;}
     .mainbox{width:38vmax;}
     .login-anchor, .register-anchor{margin-top:10%;display:flex;justify-content:center;align-items: center;}
-    .btn-design{top:61.8%;}
+    .btn-design{top:61.%;}
   }
   @media only screen and (max-width:915px) and (max-height:413px) and (orientation:landscape){
     .mainbox{top:60%}

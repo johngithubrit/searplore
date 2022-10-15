@@ -152,7 +152,7 @@ app.use(express.static("public"));
   app.get("/auth/google",
   passport.authenticate('google', { scope: ['email','profile'] }));
 
-  app.get("/auth/google/searplore",
+  app.get("/google/callback",
     passport.authenticate('google', { failureRedirect: "/" }),
     function(req, res) {
       res.redirect("/search");

@@ -49,7 +49,7 @@ position:absolute;font-family: 'Quantico',sans-serif;white-space:nowrap;margin:-
   float:right;
 }
 .grey-radius{
-  position:absolute;height:17vmax;width:19vmax;border-radius:5vmax 5vmax 0 0;margin:9% 56% 0;background-color:grey;z-index:1;
+  position:absolute;height:17vmax;width:19vmax;border-radius:5vmax 5vmax 0 0;margin:9% 56% 0;background-color:;z-index:1;
 }
 .origin-data{
 z-index:2;position:absolute;font-size:2.5vmax;font-family: 'Changa One';margin:3.5% 25% 0;

@@ -64,7 +64,7 @@ app.use(express.static("public"));
     passport.use(new GoogleStrategy({
     clientID: "276071755442-crasupdv1lr4ph5gqobtnm9f9d5prqb3.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "http://searplore.herokuapp.com/auth/google/searplore",
+    callbackURL: "http://searplore.herokuapp.com/auth/google",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {
@@ -151,7 +151,7 @@ app.use(express.static("public"));
   passport.authenticate('google', { scope: ["profile"] }));
 
   app.get("/auth/google/searplore",
-    passport.authenticate('google', { failureRedirect: "/login" }),
+    passport.authenticate('google', { failureRedirect: "/" }),
     function(req, res) {
       res.redirect("/search");
     });

@@ -214,8 +214,8 @@ button{margin:33% 73% 0%;}
 
 @media only screen and (max-width:320px) and (min-width:240px) and (orientation:portrait){
   input[type="text"]{width:64.5%;height:4.2vmax;}button{height:3vmax;width:3vmax;}
-.grey-radius{height:8vmax;width:9vmax;margin:8vmax 55% 0;}.flightBox{height:17vmax;}
+.grey-radius{height:8vmax;width:9vmax;margin:8.4vmax 55% 0;}.flightBox{height:16.5vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}
   .span-return{font-size:1vmax;margin:-3% 18% 0%;}
-.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{margin-top:9vmax;height:8vmax;opacity:50%;}
+.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;opacity:50%;}
 }

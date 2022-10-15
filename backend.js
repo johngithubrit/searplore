@@ -62,8 +62,8 @@ app.use(express.static("public"));
     });
 
     passport.use(new GoogleStrategy({
-    clientID: "276071755442-crasupdv1lr4ph5gqobtnm9f9d5prqb3.apps.googleusercontent.com",
-    clientSecret: "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",
+    clientID: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
     callbackURL: "http://searplore.herokuapp.com/auth/google/searplore",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },

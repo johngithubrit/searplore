@@ -6,6 +6,8 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const session = require("express-session");
 const passport = require("passport");
+const GOOGLE_CLIENT_ID = '276071755442-7m808pm3so1s0kmt3rmuqtpr5315p8l2.apps.googleusercontent.com'
+const GOOGLE_CLIENT_SECRET = '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'
 const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
@@ -62,9 +64,9 @@ app.use(express.static("public"));
     });
 
     passport.use(new GoogleStrategy({
-    clientID: "276071755442-crasupdv1lr4ph5gqobtnm9f9d5prqb3.apps.googleusercontent.com",
-    clientSecret: "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",
-    callbackURL: "http://searplore.herokuapp.com/auth/google/searplore",
+    clientID: GOOGLE_CLIENT_ID,
+    clientSecret: GOOGLE_CLIENT_SECRET,
+    callbackURL: "https://searplore.herokuapp.com/google/callback",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {
@@ -148,7 +150,7 @@ app.use(express.static("public"));
   });
 
   app.get("/auth/google",
-  passport.authenticate('google', { scope: ["profile"] }));
+  passport.authenticate('google', { scope: ['email','profile'] }));
 
   app.get("/auth/google/searplore",
     passport.authenticate('google', { failureRedirect: "/" }),

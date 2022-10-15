@@ -27,7 +27,7 @@ font-size:1.2vmax;text-align:center;font-family:'Quicksand', sans-serif;margin:1
 font-size:3.5vmax;text-align:center;font-family: 'Sintony', sans-serif;margin:10% 2% 0 0;color:#F3EA21;
 }
 .flightBox{
-height:24vmax;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:5vmax;z-index:-4;
+height:24vmax;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:4vmax;z-index:-4;
 }
 .down-color{
 position:absolute;border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;padding-top:2%;height:13vmax;
@@ -49,7 +49,7 @@ position:absolute;font-family: 'Quantico',sans-serif;white-space:nowrap;margin:-
   float:right;
 }
 .grey-radius{
-  position:absolute;height:17vmax;width:19vmax;border-radius:5vmax 5vmax 0 0;margin:9% 56% 0;background-color:;z-index:1;
+  position:absolute;height:17vmax;width:19vmax;border-radius:4vmax 4vmax 0 0;margin:9% 56% 0;background-color:;z-index:1;
 }
 .origin-data{
 z-index:2;position:absolute;font-size:2.5vmax;font-family: 'Changa One';margin:3.5% 25% 0;
@@ -136,8 +136,9 @@ margin:-1% 25% 0;height:15vmax;width:36%;z-index:2;
   z-index:-5;
   top:40vmax;
   width:90vw;
-  background-image:linear-gradient(to bottom,#7EE8FA,#EEC0C6);
+  background-color:#7EE8FA;
   border-radius:100px 100px 0 0;
+  box-shadow:5px 0px 20px grey inset, -5px 0px 20px grey inset;
 }
 .search-results{
   position:absolute;
@@ -197,7 +198,7 @@ button{margin:33% 73% 0%;}
   input[type="text"]{width:61.5%;height:3.2vmax;}input::placeholder{font-size:0.8vmax;}
   button{width:2.5vmax;height:2.5vmax;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
 .flightnum-des{font-size:1vmax;}.num-border{height:2vmax;width:2vmax;font-size:1vmax;padding-top:5%;}
-.flight-img{height:2.5vmax;width:8vmax;margin:3% 6% 0;}.down-color{margin-top:9.5vmax;height:8vmax;}
+.flight-img{height:2.5vmax;width:8vmax;margin:3% 6% 0;}.down-color{margin-top:9.5vmax;height:8vmax;border-radius:0 0 4vmax 4vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:0.7vmax;margin:-2.4% 20% 0%;}
   .span-return{font-size:0.7vmax;margin:-2.4% 16% 0%;}.origin-data{font-size:1.4vmax;margin:3.5% 28% 0;}
     .destination-data{font-size:1.4vmax;margin:3.5% 50% 0;}.value-box{width:7vmax;height:4vmax;}

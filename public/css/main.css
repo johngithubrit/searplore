@@ -64,6 +64,8 @@ margin:2% 2.8% 0;z-index:1;height:5vmax;width:16vmax;border-radius:1.8vmax;borde
 margin:10% 0 0 12%;padding-top:2.5%;text-align: center;font-size:2vmax;
 font-weight:bold;height:3vmax;width:3vmax;border-radius:0.6vmax;border:0.15vmax solid black;
 }
+.transfer-des{font-family:'Quicksand', sans-serif;font-weight:bold;margin-left:10%;margin-top:20%;text-align:center;
+padding-top:5%;font-size:1.3vmax;border-radius:1.5vmax 1.5vmax 0 0;width:80%;height:20%;background-color:#9CDBF4;}
 .top-txt{
   color:white;
   -webkit-text-stroke:0.1vmax;
@@ -131,11 +133,11 @@ margin:-1% 25% 0;height:15vmax;width:36%;z-index:2;
 }
 .content-box{
   position:absolute;
-  margin-left:5%;
+  margin-left:2%;
   margin-top:10%;
   z-index:-5;
   top:40vmax;
-  width:90vw;
+  width:95vw;
   background-color:#7EE8FA;
   border-radius:100px 100px 0 0;
 }
@@ -212,10 +214,10 @@ button{margin:33% 73% 0%;}
   .destination-data{font-size:2vmax;margin-left:40vmax;}.arrow-des{margin:-0.2% 25% 0;height:12vmax;width:20vmax;}
 }
 
-@media only screen and (max-width:320px) and (min-width:240px) and (orientation:portrait){
+@media only screen and (max-width:320px) and (min-width:239px) and (orientation:portrait){
   input[type="text"]{width:64.5%;height:4.2vmax;}button{height:3vmax;width:3vmax;}
-.grey-radius{height:8vmax;width:9vmax;margin:8.4vmax 55% 0;}.flightBox{height:16.5vmax;}
+.grey-radius{height:9vmax;width:10vmax;margin:7.5vmax 55% 0;}.flightBox{height:16.5vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}
-  .span-return{font-size:1vmax;margin:-3% 18% 0%;}
-.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;opacity:50%;}
+  .span-return{font-size:1vmax;margin:-3% 18% 0%;}.transfer-des{margin-top:14%;}
+.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;}
 }

@@ -132,6 +132,7 @@ app.use(express.static("public"));
         airnameArr.push(airName);
 
         var numTrack = i;
+        numTrack++;
         numArr.push(numTrack);
       }
       if(req.isAuthenticated()){

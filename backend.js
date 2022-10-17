@@ -17,7 +17,6 @@ var search = "";
 var searchStr = "";
 var numLength;
 let option;
-var numTrack ="";
 var heightBox = "";
 var widthSearch = "";
 var seaAbt="";
@@ -91,7 +90,7 @@ app.use(express.static("public"));
       axios.request(options).then(function(response) {
         var l = Object.entries(response.data.data);
         numLength= l.length;
-         if(searchStr === "" || numLength === 0 || searchStr.length < 3 || searchStr.length > 3){
+         if(searchStr === "" || numLength === 0 || searchStr.length < 3 ){
           numLength = "";
           heightSearch = 0;
           widthSearch = "";
@@ -132,10 +131,7 @@ app.use(express.static("public"));
         var airName = l[i][1].airline;
         airnameArr.push(airName);
 
-        if(i === 0){
-          numTrack = 0;
-      }
-      ++numTrack;
+        var numTrack = i;
         numArr.push(numTrack);
       }
       if(req.isAuthenticated()){

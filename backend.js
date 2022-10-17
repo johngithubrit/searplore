@@ -90,7 +90,7 @@ app.use(express.static("public"));
       axios.request(options).then(function(response) {
         var l = Object.entries(response.data.data);
         numLength= l.length;
-         if(searchStr === "" || numLength === 0 || searchStr.length < 3 ){
+         if(searchStr === "" || numLength === 0){
           numLength = "";
           heightSearch = 0;
           widthSearch = "";
@@ -137,14 +137,14 @@ app.use(express.static("public"));
       if(req.isAuthenticated()){
         res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
-        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox});
+        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfUnava:unavaResults});
       }else{
         res.redirect("/");
       }
     }).catch(function (error) {
       res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
         ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
-      kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox});
+      kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfUnava:unavaResults});
 });
 
   });

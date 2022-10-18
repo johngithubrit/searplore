@@ -39,8 +39,8 @@ a{
   cursor:pointer;
 }
 .mainbox{
-  height:31.55vmax;
   display:inline-block;
+  height:31.6vmax;
   width:36vmax;
   border-radius:50px;
   position: absolute;

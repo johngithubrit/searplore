@@ -186,11 +186,11 @@ button{margin:33% 73% 0%;}
 @media only screen and (max-width:480px) and (orientation:portrait) {
   .mobile-img{display:block;}
   .flightBox{height:17.5vmax;}.logo-img-home{width:6vmax;height:6vmax; margin-top:4.3%;}
-  .content-box{margin-top:-2vmax;}
+  .content-box{margin-top:-12vmax;}
   .top-txt{font-size:1.5vmax;margin-top:14%;}
   .next-txt{font-size:1.5vmax;}
-  input[type="text"]{width:61.5%;height:3.2vmax;margin-top:56%;}input::placeholder{font-size:0.8vmax;}
-  button{width:2.5vmax;height:2.5vmax;margin-top:57%;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
+  input[type="text"]{width:61.5%;height:3.2vmax;}input::placeholder{font-size:0.8vmax;}
+  button{width:2.5vmax;height:2.5vmax;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
 .flightnum-des{font-size:1vmax;}.num-border{height:2vmax;width:2vmax;font-size:1vmax;padding-top:5%;}
 .flight-img{height:2.5vmax;width:8vmax;margin:3% 6% 0;}.down-color{margin-top:9.5vmax;height:8vmax;border-radius:0 0 4vmax 4vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:0.7vmax;margin:-2.4% 20% 0%;}
@@ -209,10 +209,10 @@ button{margin:33% 73% 0%;}
 
 @media only screen and (max-width:320px) and (min-width:238px) and (orientation:portrait){
   input[type="text"]{width:64.5%;height:4.2vmax;}button{height:3vmax;width:3vmax;}
-  .top-txt{font-size:2.3vmax;margin-top:14%;}.logo-img-home{width:7vmax;height:7vmax;margin-top:6%;}
+  .top-txt{font-size:2.3vmax;margin-top:14%;}.logo-img-home{width:;height:;margin-top:5;}
   .next-txt{font-size:2.3vmax;}
 .grey-radius{height:9vmax;width:10vmax;margin:7.5vmax 55% 0;}.flightBox{height:16.5vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}
   .span-return{font-size:1vmax;margin:-3% 18% 0%;}.transfer-des{margin-top:14%;}
-.content-box{margin-top:10%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;}
+.content-box{margin-top:-5%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;}
 }

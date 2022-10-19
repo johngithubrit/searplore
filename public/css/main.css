@@ -15,6 +15,7 @@ body{
   height:9vmax;
   margin:0.5% 2% 0;
 }
+.mobile-img{display:none;}
 .top-back{
 width:100vmax;
 height:50vmax;
@@ -27,7 +28,7 @@ font-size:1.2vmax;text-align:center;font-family:'Quicksand', sans-serif;margin:1
 font-size:3.5vmax;text-align:center;font-family: 'Sintony', sans-serif;margin:10% 2% 0 0;color:#F3EA21;
 }
 .flightBox{
-height:24vmax;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:5vmax;z-index:-4;
+height:25.1vmax;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:5vmax;z-index:-4;
 }
 .down-color{
 position:absolute;border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;padding-top:2%;height:13vmax;
@@ -156,23 +157,14 @@ margin:-1% 25% 0;height:15vmax;width:36%;z-index:2;
   height:22vmax;width:22vmax;margin-top:2% ;margin-left:2%; border-radius:5vmax;
 }
 @media only screen and (max-width: 600px)  and (orientation:portrait){
-.flightBox{height:23vmax;width:90%;margin-left:5%;}.down-color{height:11vmax;width:90%;}
+.flightBox{height:20vmax;width:90%;margin-left:5%;}.down-color{height:11vmax;width:90%;}
 .content-box{border-radius: 50px 50px 0px 0px}.grey-radius{height:14vmax;width:15vmax;margin-top:10vmax;}
 .origin-data{font-size:1.5vmax;margin-left:28%;}.destination-data{font-size:1.5vmax;}.arrow-des{height:11vmax;width:25%;margin-left:30%;}
 .flight-img{height:4.2vmax;width:14vmax;}
 }
-/* @media only screen and (max-width: 750px) and (min-width:481px)  {
-button{margin:33% 73% 0%;}.content-box{margin-top:-0%;}
-.grey-radius{height:15vmax;width:16vmax;margin-top:11.5%;margin-left:52%;}
-.origin-data{font-size:2vmax;}.destination-data{font-size:2vmax;}
-.flight-img{height:3.5vmax;width:12.5vmax;}
-.top-txt{font-size:2vmax;}.next-txt{font-size:2vmax;}
-.arrow-des{margin:-2.7% 27% 0;height:16vmax;width:30%;}
-.departure-des{font-size:1.3vmax;}.return-des{font-size:1.3vmax;}
-.span-dep{font-size:1vmax;margin:-3% 22% 0;} .span-return{font-size:1vmax;margin:-3% 18% 0;}
-} */
 @media only screen and (max-width: 700px) {
 .span-dep{margin-left:22%;font-size:1.3vmax;}.span-return{margin-left:18%;font-size:1.3vmax;}
+.flightBox{height:39vmin;}
 }
 @media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
 .down-color{
@@ -191,13 +183,14 @@ button{margin:33% 73% 0%;}
       .arrow-des{margin:-1% 30.2% 0;height:10vmax;width:20vmax;}
       .value-box{margin-left:-7%}
 }
-@media only screen and (max-width:480px){
-  .flightBox{height:17.5vmax;}.logo-img-home{width:6vmax;height:6vmax; margin-top:2.5%;}
-  .content-box{margin-top:-12vmax;}
-  .top-txt{font-size:1.2vmax;margin-top:14%;}
-  .next-txt{font-size:1.2vmax;}
-  input[type="text"]{width:61.5%;height:3.2vmax;}input::placeholder{font-size:0.8vmax;}
-  button{width:2.5vmax;height:2.5vmax;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
+@media only screen and (max-width:480px) and (orientation:portrait) {
+  .mobile-img{display:block;}
+  .flightBox{height:17.5vmax;}.logo-img-home{width:6vmax;height:6vmax; margin-top:4.3%;}
+  .content-box{margin-top:-2vmax;}
+  .top-txt{font-size:1.5vmax;margin-top:14%;}
+  .next-txt{font-size:1.5vmax;}
+  input[type="text"]{width:61.5%;height:3.2vmax;margin-top:56%;}input::placeholder{font-size:0.8vmax;}
+  button{width:2.5vmax;height:2.5vmax;margin-top:57%;}.grey-radius{height:10vmax;width:10vmax;border-radius:2.5vmax 2.5vmax 0 0;margin:7.5vmax 56% 0;}
 .flightnum-des{font-size:1vmax;}.num-border{height:2vmax;width:2vmax;font-size:1vmax;padding-top:5%;}
 .flight-img{height:2.5vmax;width:8vmax;margin:3% 6% 0;}.down-color{margin-top:9.5vmax;height:8vmax;border-radius:0 0 4vmax 4vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:0.7vmax;margin:-2.4% 20% 0%;}
@@ -214,10 +207,12 @@ button{margin:33% 73% 0%;}
   .destination-data{font-size:2vmax;margin-left:40vmax;}.arrow-des{margin:-0.2% 25% 0;height:12vmax;width:20vmax;}
 }
 
-@media only screen and (max-width:320px) and (min-width:239px) and (orientation:portrait){
+@media only screen and (max-width:320px) and (min-width:238px) and (orientation:portrait){
   input[type="text"]{width:64.5%;height:4.2vmax;}button{height:3vmax;width:3vmax;}
+  .top-txt{font-size:2.3vmax;margin-top:14%;}.logo-img-home{width:7vmax;height:7vmax;margin-top:6%;}
+  .next-txt{font-size:2.3vmax;}
 .grey-radius{height:9vmax;width:10vmax;margin:7.5vmax 55% 0;}.flightBox{height:16.5vmax;}
 .departure-des{font-size:1vmax;}.return-des{font-size:1vmax;}.span-dep{font-size:1vmax;margin:-3% 22% 0%;}
   .span-return{font-size:1vmax;margin:-3% 18% 0%;}.transfer-des{margin-top:14%;}
-.content-box{margin-top:-4%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;}
+.content-box{margin-top:10%;border-radius:20px 20px 0 0;}.down-color{border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;margin-top:8.5vmax;height:8vmax;}
 }

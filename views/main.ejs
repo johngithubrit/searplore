@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,8 @@
   gtag('config', 'UA-245172337-1');
 
 </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6689386759174348"
+     crossorigin="anonymous"></script>
 <meta name="google-site-verification" content="2fwIF7KRmXSqP80k5r0U1Vc1aorWpuzaoL0ypLdRDrY" />
 <meta name="viewport" content= "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <meta charset="UTF-8">
@@ -29,7 +32,8 @@
     <title>Best and Affordable places to travel</title>
   </head>
   <body>
-    <img src="img/main-topbackground.png" alt="top-img"/>
+    <img class = "imgg" src="img/main-topbackground.png" alt="top-img"/>
+      <img class= "mobile-img" src="img/main-topbackground-m.png" alt="top-m-img"/>
     <div class="para-txt">
       <p class="top-txt">CHOOSE YOUR DREAM DESTINATION AT</p>
       <p class="next-txt">AN AFFORDABLE RATE</p>
@@ -42,10 +46,9 @@
       <img class="logo-img-home" src="img/searplore-logo.png"/>
       <div class="content-box" style="height:<%= kindOfBox %>">
         <div class="search-results"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
-        <p><%= kindOfUnava %></p>
         <% for(var i=0;i <= kindOflength-1; i++){ %>
         <div class= "flightBox">
-      <img class="flight-img" src="https://content.airhex.com/content/logos/airlines_<%= kindOfAir[i] %>_500_100_r.png?"/>
+      <img class="flight-img" src="https://content.airhex.com/content/logos/airlines_AR_500_100_r.png?"/>
         <h1 class="origin-data"><%= kindOfOri[i] %></h1>
           <img class="arrow-des" src="img/arrow.png"/>
         <h1 class="destination-data"><%= kindOfDest[i] %></h1>

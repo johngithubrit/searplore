@@ -10,7 +10,17 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-245172337-1');
+  function avoidKeyboard(){
+      setTimeout(
+          ()=>{reference.current.querySelectorAll(".mainbox, .logo-img, .login-anchor, .register-anchor, label, button").style.height = "calc(100vh)"}
+      ,2000)
+  }
 
+  return (
+      <ref={reference} div>
+         <input type="text" id="win" onFocus={avoidKeyboard} onBlur={avoidKeyboard}/>
+      </div>
+  )
 document.title="Best and Affordable places to travel";
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6689386759174348"

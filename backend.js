@@ -15,6 +15,7 @@ const app = express();
 const oriArr=[];
 var search = "";
 var searchStr = "";
+var airName = "";
 var numLength;
 let option;
 var heightBox = "";
@@ -128,7 +129,7 @@ app.use(express.static("public"));
         var transfer = l[i][1].transfers;
         transferArr.push(transfer);
 
-        var airName = l[i][1].airline;
+        airName = l[i][1].airline;
         airnameArr.push(airName);
 
         var numTrack = i;
@@ -138,14 +139,14 @@ app.use(express.static("public"));
       if(req.isAuthenticated()){
         res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
-        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfUnava:unavaResults});
+        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox});
       }else{
         res.redirect("/");
       }
     }).catch(function (error) {
       res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
         ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
-      kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfUnava:unavaResults});
+      kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox});
 });
 
   });

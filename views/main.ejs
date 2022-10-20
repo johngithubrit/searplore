@@ -36,7 +36,7 @@ return (
   users to find choose amoung preferred destinations at an affordable rate.">
   <meta name="keywords" content="cheap travel destinations,cheap flights,affordable flights,travel,destination,cheap destination,affordable city to travel">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
-  <link href="public/css/main.css" type="text/css" rel="stylesheet"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
@@ -45,24 +45,24 @@ return (
     <title>Best and Affordable places to travel</title>
   </head>
   <body>
-    <img class = "imgg" src="public/img/main-topbackground.png" alt="top-img"/>
+    <img class = "imgg" src="img/main-topbackground.png" alt="top-img"/>
     <div class="para-txt">
       <p class="top-txt">CHOOSE YOUR DREAM DESTINATION AT</p>
       <p class="next-txt">AN AFFORDABLE RATE</p>
             </div>
       <form class="submit-text" action="/search" method= "POST">
         <input type="text" name="searchFlight" placeholder="ENTER THE CITY CODE"/>
-        <button type="submit" name="button" style="display:flex; justify-content:center; align-items:center;z-index:4;"><img src="public/img/searchicon.png" alt="icon" style="width:60%;
+        <button type="submit" name="button" style="display:flex; justify-content:center; align-items:center;z-index:4;"><img src="img/searchicon.png" alt="icon" style="width:60%;
           position:absolute;"/></button>
           </form>
-      <img class="logo-img-home" src="public/img/searplore-logo.png"/>
+      <img class="logo-img-home" src="img/searplore-logo.png"/>
       <div class="content-box" style="height:<%= kindOfBox %>">
         <div class="search-results"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
         <% for(var i=0;i <= kindOflength-1; i++){ %>
         <div class= "flightBox">
-      <img class="flight-img" src="https://content.airhex.com/content/logos/airlines_<%= kindOfAir %>_400_100_r.png?"/>
+      <img class="flight-img" src="https://daisycon.io/images/airline/?width=300&height=150&color=ffffff&iata=<%= kindOfAir %>"/>
         <h1 class="origin-data"><%= kindOfOri[i] %></h1>
-          <img class="arrow-des" src="public/img/arrow.png"/>
+          <img class="arrow-des" src="img/arrow.png"/>
         <h1 class="destination-data"><%= kindOfDest[i] %></h1>
           <div class= "down-color">
             <h1 class="departure-des">Departure:-</h1><span class="span-dep">

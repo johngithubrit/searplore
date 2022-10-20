@@ -5,7 +5,7 @@ body{
   position:relative;
   margin:0;padding:0;
   min-height: 100%;
-  background-color:#84a1d7;
+  background-color: rgb(0,181,226);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment:fixed;
@@ -28,10 +28,10 @@ font-size:1.2vmax;text-align:center;font-family:'Quicksand', sans-serif;margin:1
 font-size:3.5vmax;text-align:center;font-family: 'Sintony', sans-serif;margin:10% 2% 0 0;color:#F3EA21;
 }
 .flightBox{
-height:25.1vmax;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:5vmax;z-index:-4;
+height:25.1vmax;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:4vmax;z-index:-4;
 }
 .down-color{
-position:absolute;border-bottom-left-radius:5vmax;border-bottom-right-radius:5vmax;padding-top:2%;height:13vmax;
+position:absolute;border-bottom-left-radius:4vmax;border-bottom-right-radius:4vmax;padding-top:2%;height:13vmax;
 background-image:linear-gradient(to right,#3ABFEF,#B6F0FF);margin-top:12.1vmax;width:85%;
 }
 .departure-des{
@@ -50,7 +50,7 @@ position:absolute;font-family: 'Quantico',sans-serif;white-space:nowrap;margin:-
   float:right;
 }
 .grey-radius{
-  position:absolute;height:17vmax;width:19vmax;border-radius:4vmax 4vmax 0 0;margin:9% 56% 0;background-color:rgb(158,128,178);z-index:1;
+  position:absolute;height:17vmax;width:19vmax;border-radius:4vmax 4vmax 0 0;margin:9% 56% 0;background-image:linear-gradient(to top,#02AABD,#00CDAC);z-index:1;
 }
 .origin-data{
 z-index:2;position:absolute;font-size:2.5vmax;font-family: 'Changa One';margin:3.5% 25% 0;
@@ -139,7 +139,7 @@ margin:-1% 25% 0;height:15vmax;width:36%;z-index:2;
   z-index:-5;
   top:40vmax;
   width:95vw;
-  background-color:#7EE8FA;
+  background-color: rgb(0,231,256);
   border-radius:100px 100px 0 0;
 }
 .search-results{

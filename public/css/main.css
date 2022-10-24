@@ -112,6 +112,7 @@ color:white;
 .flightBox{
   position: absolute;
   margin-left:8.1%;
+  margin-bottom:5%;
   width:80%;
   overflow:hidden;
   border-radius: 6%/17%;

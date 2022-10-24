@@ -43,22 +43,25 @@ users to find choose amoung preferred destinations at an affordable rate.">
     <nav>
       <img class="logo-img" src="img/searplore-logo.png"/>
       <ul>
-        <button class="login-anchor" ><a href="/">Login</a></button>
-            <button class="register-anchor" href="" ><a href="/register">Register</a></button>
+        <button class="login-anchor"><a href="/">Login</a></button>
+            <button class="register-anchor" ><a href="/register">Register</a></button>
         </ul>
     </nav>
     <div class="parent-box-div">
     <div class="mainbox">
+        <div class="parent-form">
       <form action="/register" method = "POST" class="text-boxx">
       <label class="user">USERNAME</label><input name="username" type="text" placeholder="Username"/>
       <label class="pass">PASSWORD</label><input name="password" type="password" placeholder="Password"/>
       <button class="login-btn-style" type="submit" name="login-btn">REGISTER</button>
+      <div class="btn-parent">
       <div class="btn-design">
-        <a class="google-style" href="/auth/google" type="submit" name="google-btn"></a>
+      <a class="google-style" href="/auth/google" type="submit" name="google-btn"></a>
     </div>
+  </div>
       </form>
      </div>
-   </div>
+     </div>
    <script type="text/javascript" src="backend.js"></script>
     </body>
 </html>

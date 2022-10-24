@@ -28,7 +28,7 @@ body,html{
   color:white;
   font-size:1.4vw;
   background-color:#1C89EA;
-  padding:5px 22px 5px;
+  /* padding:5px 22px 5px; */
   border-radius:8px;
   margin-left:14%;
 }
@@ -110,7 +110,7 @@ color:white;
   width:95vw;
 }
 .flightBox{
-  /* position: absolute;
+  position: absolute;
   margin-left:8.1%;
   margin-bottom:5%;
   width:80%;
@@ -119,8 +119,7 @@ color:white;
   padding-top:2%;
   margin-top:35%;
   background-color:#262626;
-  box-shadow:0 0 10px #000000; */
-  padding-top:2%;margin-top:15%;margin-bottom:5%;margin-left:7%;width:85%;background-color:white;border-radius:5vmax;z-index:-4;
+  box-shadow:0 0 10px #000000;
 }
 .flight-img{
   border-radius:10%/30%;

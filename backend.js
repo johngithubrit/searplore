@@ -94,12 +94,14 @@ app.use(express.static("public"));
          if(searchStr === "" || numLength === 0){
           numLength = "";
           heightSearch = 0;
-          widthSearch = "";
+          widthSearch = 0;
           seaAbt="";
           resAbt="";
           heightBox = 0;
         }else {
         heightBox = "";
+        heightSearch = 5;
+        widthSearch = 22;
           widthSearch = "search-results";
           seaAbt="About";
           resAbt="search results";

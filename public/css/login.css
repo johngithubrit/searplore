@@ -2,7 +2,7 @@
   box-sizing:border-box;
 }
 body,html{
-  background-image:url("img/land-login.png");
+  background-image:url("../img/land-login.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -42,6 +42,7 @@ a{
   color:white;
   font-family:'Quicksand';
 }
+.google-style img{position: absolute;width:11.3%;}
 .mainbox{
 position:absolute;
 left:50%;
@@ -99,9 +100,6 @@ label{
 .btn-design{
   width:50px;
   margin-top:10px;
-  background-image:url("../img/googlelogo.png");
-  background-size:90% 90%;background-position:center;
-background-repeat: no-repeat;
   border-radius:50px;
   height:50px;
   background-color: #00F2F2;
@@ -114,7 +112,7 @@ background-repeat: no-repeat;
   .mainbox input{width:200px;}
 }
 @media only screen and (max-width:800px) and (orientation:portrait){
-  body,html{background-image:url("img/mobile-login.png");}
+  body,html{background-image:url("../img/mobile-login.png");}
   .mainbox{margin-top:140px;}
   nav > ul > .login-anchor, .register-anchor{width:90px;font-size:12px;}
   .logo-img{width:145px;}

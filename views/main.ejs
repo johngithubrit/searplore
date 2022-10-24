@@ -60,9 +60,9 @@ return (
       </div>
   <img class="logo-img-home" src="img/searplore-logo.png"/>
       <div class="content-box" style="height:<%= kindOfBox %>">
-        <div class="search-results" style="padding:<%= kindOfHeight %>px <%= kindOfWidth %>px <%= kindOfHeight %>px ;"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
+        <div class="search-results" style="padding:<%= kindOfHeight %>px <%= kindOfWidth %>px <%= kindOfHeight %>px;"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
         <% for(var i=0;i <= kindOflength-1; i++){ %>
-        <div class= "flightBox" style="">
+        <div class= "flightBox" style="margin-top:<kindOfWidth%>%;">
       <img class="flight-img" src="https://daisycon.io/images/airline/?width=500&height=150&color=ffffff&iata=<%= kindOfAir[i] %>"/>
         <div class="iata-details">
         <h1 class="origin-data"><%= kindOfOri[i] %></h1>

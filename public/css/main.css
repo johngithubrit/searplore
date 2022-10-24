@@ -28,7 +28,6 @@ body,html{
   color:white;
   font-size:1.4vw;
   background-color:#1C89EA;
-  /* padding:5px 22px 5px; */
   border-radius:8px;
   margin-left:14%;
 }
@@ -112,7 +111,6 @@ color:white;
 .flightBox{
   position: absolute;
   margin-left:8.1%;
-  margin-bottom:5%;
   width:80%;
   overflow:hidden;
   border-radius: 6%/17%;

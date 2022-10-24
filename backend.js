@@ -101,7 +101,7 @@ app.use(express.static("public"));
         }else {
         heightBox = "";
         heightSearch = 5;
-        widthSearch = 22;
+        widthSearch = 35;
           widthSearch = "search-results";
           seaAbt="About";
           resAbt="search results";

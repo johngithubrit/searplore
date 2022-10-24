@@ -60,6 +60,7 @@ return (
       </div>
   <img class="logo-img-home" src="img/searplore-logo.png"/>
       <div class="content-box" style="height:<%= kindOfBox %>">
+          <div class="parent-flyBox">
         <div class="search-results" style="padding:<%= kindOfHeight %>px <%= kindOfWidth %>px <%= kindOfHeight %>px;"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
         <% for(var i=0;i <= kindOflength-1; i++){ %>
         <div class= "flightBox" style="margin-top:<kindOfWidth%>%;">
@@ -81,6 +82,7 @@ return (
             </div>
         </div>
       <% } %>
+  </div>
   </div>
   <script type="text/javascript" src="public/backend.js"></script>
 </body>

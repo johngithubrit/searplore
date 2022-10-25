@@ -146,14 +146,14 @@ font-family: 'Yantramanav', sans-serif;
 .down-color{
   background-color:#1C1C1C;
   margin-top:5%;
-  padding:2%;
+    padding:4%;
 }
 .departure-des{margin-left:5%;font-size:2vw;color:#00FFAA;font-family:'Raleway', sans-serif;font-weight:lighter;}
   .return-des{margin-left:5%;font-size:2vw;color:#00FFAA;font-family:'Raleway', sans-serif;font-weight:lighter;}
   .span-dep{margin-top:-3.4%;color:#00FFAA;position: absolute;margin-left:16%;font-size:1.6vw;font-family: 'Rajdhani', sans-serif;}
   .span-return{margin-top:-3.4%;color:#00FFAA;position:absolute;margin-left:13%;font-size:1.6vw;font-family: 'Rajdhani', sans-serif;}
   .grey-radius{
-    width:25%;padding:5%;border-radius: 20%/22% 0 0;margin:-31% 75% 0;background-image:linear-gradient(to bottom,#00FFE0,#00FF7F);overflow: hidden;
+  width:25%;padding:6.8%;border-radius: 20%/22% 0 0;margin:-35% 75% 0;background-image:linear-gradient(to bottom,#00FFE0,#00FF7F);overflow: hidden;
 
   }
 .price-des{font-size:4.5vw;color:#C8FF00;text-shadow:0 0 3px black;text-align: center;font-family: 'Exo', sans-serif;}

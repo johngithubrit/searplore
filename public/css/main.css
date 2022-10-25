@@ -26,7 +26,7 @@ background-attachment: fixed;
 .search-results{
   position: absolute;
   font-family: 'Quicksand', sans-serif;
-  margin-top:18%;
+  margin-top:10%;
   font-weight:bold;
   color:white;
   font-size:1.4vw;
@@ -112,14 +112,9 @@ color:white;
   background-image:linear-gradient(to bottom,#7EE8FA,#EEC0C6);
   border-radius:50px 50px 0 0;
 }
-/* .parent-flyBox{
-  position: absolute;
-  margin-top: 15%;
-  min-height:100vh;
-  width:100%;
-} */
+
 .flightBox{
-padding-top:2%;margin-top:25%;margin-left:7%;width:80%;background-color:#262626;border-radius:5vmax;z-index:-4;
+padding-top:2%;margin-top:35%;margin-left:7%;width:80%;background-color:#262626;border-radius:5vmax;z-index:-4;
 box-shadow:0 0 10px #000000;overflow:hidden;
   border-radius: 6%/17%;
 }

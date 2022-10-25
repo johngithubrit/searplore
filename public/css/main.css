@@ -115,7 +115,7 @@ color:white;
 }
 
 .flightBox{
-padding-top:2%;margin-top:35%;margin-bottom:5%;margin-left:7%;width:80%;background-color:#262626;border-radius:5vmax;z-index:-4;
+padding-top:2%;margin-top:35%;margin-left:7%;width:80%;background-color:#262626;border-radius:5vmax;z-index:-4;
 box-shadow:0 0 10px #000000;overflow:hidden;
   border-radius: 6%/17%;
 }

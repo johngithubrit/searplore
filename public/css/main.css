@@ -32,7 +32,7 @@ border-radius: 0 0 5px 5px;
 font-family:'Quicksand', sans-serif;
 font-size:1.4vw;
 margin-left:10%;
-margin-top:-5%;
+margin-top:-7%;
 background-color:rgb(0,210,250);
 }
 button > img{
@@ -107,10 +107,10 @@ color:white;
 .content-box{
   position:absolute;
   margin-left:2%;
-  margin-top:-16%;
+  margin-top:-14%;
   z-index:-5;
   width:95vw;
-  background-image:linear-gradient(to bottom,#7EE8FA,#EEC0C6);
+  background-color:#232825;
   border-radius:50px 50px 0 0;
 }
 

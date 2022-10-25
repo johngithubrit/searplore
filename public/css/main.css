@@ -112,12 +112,12 @@ color:white;
   background-image:linear-gradient(to bottom,#7EE8FA,#EEC0C6);
   border-radius:50px 50px 0 0;
 }
-.parent-flyBox{
+/* .parent-flyBox{
   position: absolute;
   margin-top: 15%;
   min-height:100vh;
   width:100%;
-}
+} */
 .flightBox{
 padding-top:2%;margin-top:25%;margin-left:7%;width:80%;background-color:#262626;border-radius:5vmax;z-index:-4;
 box-shadow:0 0 10px #000000;overflow:hidden;

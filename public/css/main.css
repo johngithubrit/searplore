@@ -24,7 +24,6 @@ background-attachment: fixed;
   border: none;
 }
 .search-results{
-  position:absolute;
 display:flex;
 justify-content: center;
 align-items: center;

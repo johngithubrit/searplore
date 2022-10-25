@@ -104,7 +104,6 @@ color:white;
 .content-box{
   position:absolute;
   margin-left:2%;
-  min-height: 100vh;
   margin-top:-16%;
   z-index:-5;
   width:95vw;

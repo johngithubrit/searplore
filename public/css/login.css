@@ -19,8 +19,8 @@ nav ul{
 }
 .logo-img{
   position:absolute;
-  margin:-43px 10px 0px;
-  width:185px;
+  margin:-29px 10px 0px;
+  width:145px;
 }
 nav > ul > .login-anchor,.register-anchor{
   margin:2% 10px 0px;
@@ -28,8 +28,8 @@ nav > ul > .login-anchor,.register-anchor{
   box-shadow:0.1vmax 0.1vmax 1vmax black;
   border:none;
   padding:10px;
-  width:120px;
-  font-size:20px;
+  width:100px;
+  font-size:15px;
   background-color:#45ADD1;
   margin-right:20px;
 }
@@ -111,7 +111,7 @@ label{
   .mainbox input{width:200px;}
 }
 @media only screen and (max-width:800px) {
-  body,html{background-image:url("mobile-login.png");}
+  body,html{background-image:url("../img/mobile-login.png");}
   .mainbox{margin-top:140px;}
   nav > ul > .login-anchor, .register-anchor{width:90px;font-size:12px;}
   .logo-img{width:125px;margin-top:-28px;}

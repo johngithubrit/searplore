@@ -15,6 +15,7 @@ const app = express();
 const oriArr=[];
 var search = "";
 var searchStr = "";
+var widthPading = "";
 var airName = "";
 var numLength;
 let option;
@@ -95,13 +96,14 @@ app.use(express.static("public"));
           numLength = "";
           heightSearch = 0;
           widthSearch = 0;
+          widthPading = 0;
           seaAbt="";
           resAbt="";
           heightBox = 0;
         }else {
         heightBox = "";
         heightSearch = 5;
-        widthSearch = 35;
+        widthPading = 20;
         heightBox=100;
           widthSearch = "search-results";
           seaAbt="About";
@@ -142,14 +144,14 @@ app.use(express.static("public"));
       if(req.isAuthenticated()){
         res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
-        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox});
+        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfpad:widthPading});
       }else{
         res.redirect("/");
       }
     }).catch(function (error) {
       res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
         ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
-      kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox});
+      kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfpad:widthPading});
 });
 
   });

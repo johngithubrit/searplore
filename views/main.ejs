@@ -11,7 +11,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-245172337-1');
-  document.title="Best and Affordable places to travel";
+  document.title="Cheapest places to travel";
   const reference = useRef();
 
 function avoidKeyboard(){
@@ -44,11 +44,12 @@ return (
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@700;900&display=swap" rel="stylesheet">
-    <title>Best and Affordable places to travel</title>
+    <title>Cheapest places to travel</title>
   </head>
   <body>
     <div class="parent-header">
         <img class = "imgg" src="img/maintop-background.png" alt="top-img"/>
+          <img class = "imgg-mobile" src="main-topbackground-m.png" alt="top-img"/>
         <div class="para-txt">
           <p class="top-txt">CHOOSE YOUR DREAM DESTINATION AT</p>
           <p class="next-txt">AN AFFORDABLE RATE</p>
@@ -61,7 +62,7 @@ return (
   <img class="logo-img-home" src="img/searplore-logo.png"/>
       <div class="content-box" style="min-height:<%= kindOfBox %>vh">
           <div class="parent-flyBox">
-        <div class="search-results" style="padding:<%= kindOfHeight %>px <%= kindOfWidth %>px <%= kindOfHeight %>px;"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
+        <div class="search-results" style="padding:<%= kindOfHeight %>px <%= kindOfpad %>px <%= kindOfHeight %>px;"><%= kindOfAbout %> <%= kindOflength %> <%= kindOfSearch %></div>
         <% for(var i=0;i <= kindOflength-1; i++){ %>
         <div class= "flightBox" style="margin-top:<kindOfWidth%>%;">
       <img class="flight-img" src="https://content.airhex.com/content/logos/airlines_<%= kindOfAir[i] %>_350_100_r.png?background=000000"/>

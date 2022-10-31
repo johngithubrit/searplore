@@ -2,7 +2,7 @@
   box-sizing:border-box;
 }
 body,html{
-  background-image:url("../img/land-login.png");
+  background-image:url("land-login.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ nav ul{
 }
 .logo-img{
   position:absolute;
-  margin:-40px 10px 0px;
+  margin:-43px 10px 0px;
   width:185px;
 }
 nav > ul > .login-anchor,.register-anchor{
@@ -33,6 +33,7 @@ nav > ul > .login-anchor,.register-anchor{
   background-color:#45ADD1;
   margin-right:20px;
 }
+
 .login-anchor:hover, .register-anchor:hover{
   text-shadow:0 0 4px lightblue;
   cursor:pointer;
@@ -42,7 +43,6 @@ a{
   color:white;
   font-family:'Quicksand';
 }
-.google-style img{position: absolute;width:11.3%;}
 .mainbox{
 position:absolute;
 left:50%;
@@ -97,12 +97,12 @@ label{
   border-radius:50px 50px 0px 0px;
   margin:25px 42% 0px;
 }
+.google-style img{position: absolute;width:11.3%;}
 .btn-design{
   width:50px;
   margin-top:10px;
   border-radius:50px;
-  height:50px;
-}
+  height:50px;}
 .btn-design:hover{
   cursor: pointer;
   box-shadow:0 0 2px black;
@@ -110,18 +110,26 @@ label{
 @media only screen and (max-width:625px) and (orientation:portrait){
   .mainbox input{width:200px;}
 }
-@media only screen and (max-width:800px) and (orientation:portrait){
-  body,html{background-image:url("../img/mobile-login.png");}
+@media only screen and (max-width:800px) {
+  body,html{background-image:url("mobile-login.png");}
   .mainbox{margin-top:140px;}
   nav > ul > .login-anchor, .register-anchor{width:90px;font-size:12px;}
-  .logo-img{width:145px;}
+  .logo-img{width:125px;margin-top:-28px;}
 }
 @media only screen and (max-width:450px) {
-    nav > ul > .login-anchor, .register-anchor{width:70px;font-size:8px;}  .logo-img{width:130px;margin-left:-10px;}
-  .mainbox input{width:120px;padding:5px;}.btn-design{height:40px;width:40px;margin-top:5px;}input::placeholder{padding-left:10px;font-size:0.5rem;}
-  label{font-size:0.7rem;margin-top:5px;}.btn-parent{height:100px;width:50px;}.login-btn-style{margin-left:33%;margin-top:-10%;width:100px;padding:10px;}
+    nav > ul > .login-anchor, .register-anchor{width:70px;font-size:8px;}  .logo-img{width:115px;margin-left:-10px;}
+  .mainbox input{width:120px;padding:5px;margin-left:120px;}.btn-design{height:32px;width:32px;margin-top:5px;}input::placeholder{padding-left:10px;font-size:0.5rem;}
+  label{font-size:0.7rem;margin-top:5px;}.btn-parent{height:100px;width:45px;}.login-btn-style{margin-left:33%;margin-top:-10%;width:100px;padding:10px;}
 }
 @media only screen and (max-width:320px) and (orientation:portrait){
-  .mainbox input{width:100px;padding:2.5px;}.btn-design{height:40px;width:40px;margin-top:5px;}input::placeholder{padding-left:12px;font-size:0.5rem;}
-  label{font-size:0.7rem;margin-top:2px;}.btn-parent{height:100px;width:50px;}.login-btn-style{margin-left:33%;margin-top:-10%;width:100px;padding:10px;}
+  .mainbox input{width:100px;padding:2.5px;}.btn-design{height:40px;width:30px;margin-top:5px;}input::placeholder{padding-left:12px;font-size:0.5rem;}
+  label{font-size:0.7rem;margin-top:2px;}.btn-parent{height:100px;width:40px;}.login-btn-style{margin-left:33%;margin-top:-10%;width:100px;padding:10px;}
+  .logo-img{width:90px;}nav > ul > .login-anchor,.register-anchor{
+    margin:0.6% 0px 0px;
+    padding:5px;
+    width:50px;
+    font-size:8px;
+    margin-right:20px;
+  }
+
 }

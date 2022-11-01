@@ -16,7 +16,7 @@ background-attachment: fixed;
 .imgg-mobile{display: none;}
 .imgg{
   position: relative;
-  background-image: url("../img/maintop-background.png");
+  background-image: url("maintop-background.png");
   width:90%;
   margin-top:2.8%;
   margin-left: 5%;
@@ -32,7 +32,8 @@ align-items: center;
 border-radius: 0 0 5px 5px;
 font-family:'Quicksand', sans-serif;
 font-size:1.4vw;
-margin: -15% 10% 0;
+margin-left:10%;
+margin-top:%;
 background-color:rgb(0,210,250);
 }
 button > img{
@@ -111,7 +112,7 @@ color:white;
   z-index:-5;
   width:95vw;
   background-color:#1F2321;
-  border-radius: 10%/1% 1% 0 0;
+  border-radius:5%/10% 10% 0 0;
 }
 
 .flightBox{
@@ -185,13 +186,11 @@ font-family: 'Yantramanav', sans-serif;
    .arrow-des{margin-left:24%;}
      .flightBox{width:95%;padding:3.2% 3.2% 0.3%;margin-left:2.5%;}.down-color{padding:6% 0 10%;}
        .grey-radius{padding:23% 0 23%;margin-top:-49%;margin-left:70%;width:34%;border-radius:40% 20%/22% 0 0;}
-     .departure-des{font-size: 3.1vw;margin-left:6%;}
-     .return-des{font-size:3.1vw;margin-left:6%;}
-     .span-dep{font-size:2.9vw;margin:-5.7% 24% 0;}
+
      .imgg{display: none;}.imgg-mobile{display: block;  position: relative; width:90%;margin-top:2.8%;margin-left: 5%;box-shadow:0 0 4px #00FF67;
        border-radius: 10%/20%; border: none;}
 
-     .span-return{font-size:2.9vw;margin:-5.7% 20% 0%;}.transfer-des{padding:2% 7.3% 5.3%;border-radius:0 0 16%/60% 0;}
+     .transfer-des{padding:2% 7.3% 5.3%;border-radius:0 0 16%/60% 0;}
      .logo-img-home{
        margin:-49.2% 4% 0;
        width:16%;

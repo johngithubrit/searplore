@@ -16,7 +16,7 @@ background-attachment: fixed;
 .imgg-mobile{display: none;}
 .imgg{
   position: relative;
-  background-image: url("maintop-background.png");
+  background-image: url("..img/maintop-background.png");
   width:90%;
   margin-top:2.8%;
   margin-left: 5%;

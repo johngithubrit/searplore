@@ -14,19 +14,17 @@
   document.title="Cheapest places to travel";
   const reference = useRef();
 
-var observer = new IntersectObserver(function (items, self){
-  for (var a=0;a <items.length;a++){
-    if (items[a].isintersecting){
-      var src= items[a].target.getAttribute("data-src");
-      items[a].target.getAttribute("src", src);
-      self.unobserve(items[a].target);
-    }
-  }
-});
-var image=document.getElementsByClassName("imgg");
-for(var a = 0;a < image.length,a++){
-  observer.observe(image[a]);
+function avoidKeyboard(){
+    setTimeout(
+        ()=>{reference.current.querySelectorAll(".flightBox, .top-txt, .next-txt, .logo-img-home, .origin-data, .destination-data, .arrow-des, .down-color, .departure-des, .return-des, input, button").style.height = "calc(100vh)"}
+    ,2000)
 }
+
+return (
+    <ref={reference} div>
+       <input type="text" id="win" onFocus={avoidKeyboard} onBlur={avoidKeyboard}/>
+    </div>
+)
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6689386759174348"
      crossorigin="anonymous"></script>
@@ -50,8 +48,8 @@ for(var a = 0;a < image.length,a++){
   </head>
   <body>
     <div class="parent-header">
-        <img class = "imgg" data-src="img/maintop-background.png" alt="top-img"/>
-          <img class = "imgg-mobile" data-src="img/main-topbackground-m.png" alt="top-img"/>
+        <img class = "imgg" src="img/maintop-background.png" alt="top-img"/>
+          <img class = "imgg-mobile" src="img/main-topbackground-m.png" alt="top-img"/>
         <div class="para-txt">
           <p class="top-txt">CHOOSE YOUR DREAM DESTINATION AT</p>
           <p class="next-txt">AN AFFORDABLE RATE</p>

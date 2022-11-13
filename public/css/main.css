@@ -16,7 +16,7 @@ background-attachment: fixed;
 .imgg-mobile{display: none;}
 .imgg{
   position: relative;
-  background-image: url("..img/maintop-background.png");
+  background-image: url("maintop-background.png");
   width:90%;
   margin-top:2.8%;
   margin-left: 5%;
@@ -28,12 +28,14 @@ background-attachment: fixed;
 position:absolute;
 display:flex;
 justify-content: center;
+color:white;
+font-weight:bold;
 align-items: center;
-border-radius: 0 0 5px 5px;
+border-radius: 3%/30%;
 font-family:'Quicksand', sans-serif;
 font-size:1.4vw;
-margin: -15% 10% 0%;
-background-color:rgb(0,210,250);
+margin-left:10%;
+background-color:#1C89EA;
 }
 button > img{
   position:absolute;
@@ -106,12 +108,13 @@ color:white;
 }
 .content-box{
   position:absolute;
-  margin-left:2%;
+  margin-left:0.85%;
   margin-top:15%;
+  border:1px solid white;
   z-index:-5;
-  width:95vw;
+  width:97vw;
   background-color:#1F2321;
-  border-radius:10%/0.7% 0.7% 0 0;
+  border-radius:5%/10% 10% 0 0;
 }
 
 .flightBox{
@@ -153,12 +156,44 @@ font-family: 'Yantramanav', sans-serif;
   .span-dep{margin-top:-3.4%;color:#00FFAA;position: absolute;margin-left:16%;font-size:1.6vw;font-family: 'Rajdhani', sans-serif;}
   .span-return{margin-top:-3.4%;color:#00FFAA;position:absolute;margin-left:13%;font-size:1.6vw;font-family: 'Rajdhani', sans-serif;}
   .grey-radius{
-  width:25%;padding:17% 17% 16%;border-radius:24% 20%/22% 0 0;margin:-33.8% 75% 0;background-image:linear-gradient(to bottom,#03CFE5,#02B557);
+    width: 21%;
+      overflow: hidden;
+      position: absolute;
+      padding: 12% 11% 15%;
+      display: flex;
+      border-radius: 15%/18%;
+      top:32%;
+      left:68%;
+      /* margin: -27% 54% 0; */
+      background-image: linear-gradient(to bottom,#03CFE5,#02B557);
+      justify-content: center;
   }
-.price-des{font-size:4.4vw;color:#C8FF00;text-shadow:0 0 3px black;font-family: 'Exo', sans-serif;margin:-9% -9% 0;position: absolute;}
-.flightnum-des{margin:0.3% -9% 0;text-shadow:0 0 5px black;font-weight:bold;font-family:'Quicksand';font-size:1.5vw;text-align: center;color:white;position: absolute;}
-.transfer-des{font-size:1.5vw;text-shadow:0 0 0.7px black;position: absolute;margin:7.7% -13.6% 0%;background-image:linear-gradient(to bottom,#00F3FF,#00DBFF);padding:1% 5.42% 2.13%;
-  border-radius:0 0 20%/80% 0;color:#4A77F4;font-weight:bold;font-family:'Quicksand', sans-serif;}
+.price-des{font-size: 4.4vw;
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-family: 'Exo', sans-serif;
+    top: 10%;
+    position: absolute;}
+.flightnum-des{text-shadow: 0 0 5px black;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 45%;}
+.transfer-des{font-size: 1.8vw;
+    text-shadow: 0 0 0.7px black;
+    position: absolute;
+    bottom: 0%;
+    background-image: linear-gradient(to bottom,#00F3FF,#00DBFF);
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #4A77F4;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;}
   @media only screen and (max-width:450px){
     .arrow-des{margin-left:21.5%;margin-top:0.1%;}
     .origin-data, .destination-data{margin-top:-1.2%;}
@@ -176,20 +211,30 @@ font-family: 'Yantramanav', sans-serif;
       .return-des{font-size:2.7vw;margin-left:6%;}
       .span-dep{font-size:2.3vw;margin:-4.8% 21% 0;}
       .span-return{font-size:2.3vw;margin:-4.8% 17% 0%;}
-      .price-des{font-size:7.4vw;margin:-13% 5.3% 0;}
-      .flightnum-des{margin:0.3% 5% 0;font-size:2.5vw;}
-      .transfer-des{font-size:2.5vw;margin:10% 0% 0%;padding:2% 6.54% 4%;border-radius:0 0 18%/68% 0;}
-      .grey-radius{padding:23% 0 23%;margin-top:-47%;margin-left:70%;width:34%;border-radius:40% 20%/22% 0 0;}
+      .price-des{font-size: 5.5vw;
+    }
+      .flightnum-des{
+    font-size: 2.5vw;}
+      .transfer-des{font-size:2.5vw;padding:8%;}
+      .grey-radius{
+    padding: 15% 10% 22%;
+    top:26%;
+    left:61%;
+    width: 34%;}
   }
  @media only screen and (max-width:500px){
    .arrow-des{margin-left:24%;}
-     .flightBox{width:95%;padding:3.2% 3.2% 0.3%;margin-left:2.5%;}.down-color{padding:6% 0 10%;}
-       .grey-radius{padding:23% 0 23%;margin-top:-49%;margin-left:70%;width:34%;border-radius:40% 20%/22% 0 0;}
+     .flightBox{width:95%;padding:3.2% 3.2% 0%;margin-left:2.5%;}.down-color{padding:6% 0 10%;}
+       .grey-radius{padding: 17% 13% 23%;top:25%;
+       left:64%;}
 
      .imgg{display: none;}.imgg-mobile{display: block;  position: relative; width:90%;margin-top:2.8%;margin-left: 5%;box-shadow:0 0 4px #00FF67;
        border-radius: 10%/20%; border: none;}
 
-     .transfer-des{padding:2% 7.3% 5.3%;border-radius:0 0 16%/60% 0;}
+     .transfer-des{font-size: 2.5vw;
+    margin: 10% 0% 0%;
+    padding: 8%;
+    border-radius: 0 0 18%/68% 0;}
      .logo-img-home{
        margin:-49.2% 4% 0;
        width:16%;

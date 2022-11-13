@@ -2,7 +2,7 @@
   box-sizing:border-box;
 }
 body,html{
-  background-image:url("../land-login.png");
+  background-image:url("../img/land-login.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

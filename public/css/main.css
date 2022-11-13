@@ -211,13 +211,14 @@ position: absolute;}
       .return-des{font-size:2.7vw;margin-left:6%;}
       .span-dep{font-size:2.3vw;margin:-4.8% 21% 0;}
       .span-return{font-size:2.3vw;margin:-4.8% 17% 0%;}
-      .price-des{font-size: 5.5vw;
+      .price-des{font-size: 5.5vw;margin-top:-14%;
     }
       .flightnum-des{
-    font-size: 2.5vw;}
-      .transfer-des{font-size:2.5vw;padding:8%;}
+    font-size: 2.5vw;margin-top:-2%;}
+      .transfer-des{font-size:2.5vw;padding: 2% 6.6% 2%;
+    margin-top: 11%;}
       .grey-radius{
-    padding: 15% 10% 22%;
+    padding: 22% 10% 22%;
     top:26%;
     left:61%;
     width: 34%;}
@@ -230,11 +231,9 @@ position: absolute;}
 
      .imgg{display: none;}.imgg-mobile{display: block;  position: relative; width:90%;margin-top:2.8%;margin-left: 5%;box-shadow:0 0 4px #00FF67;
        border-radius: 10%/20%; border: none;}
-
-     .transfer-des{font-size: 2.5vw;
-    margin: 10% 0% 0%;
-    padding: 8%;
-    border-radius: 0 0 18%/68% 0;}
+       
+     .transfer-des{
+       margin: 12% 0% 0%;
      .logo-img-home{
        margin:-49.2% 4% 0;
        width:16%;

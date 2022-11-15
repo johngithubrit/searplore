@@ -141,9 +141,6 @@ app.use(express.static("public"));
         ++numTrack;
         numArr.push(numTrack);
       }
-      if(searchStr === "" || numLength === 0){
-        res.render("/");
-      }
       if(req.isAuthenticated()){
         res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,

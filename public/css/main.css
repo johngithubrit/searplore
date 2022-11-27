@@ -151,46 +151,62 @@ font-family: 'Yantramanav', sans-serif;
   margin-top:5%;
     padding:4%;
 }
-.departure-des{margin-left:5%;font-size:2vw;color:#00FFAA;font-family:'Raleway', sans-serif;font-weight:lighter;}
-  .return-des{margin-left:5%;font-size:2vw;color:#00FFAA;font-family:'Raleway', sans-serif;font-weight:lighter;}
-  .span-dep{margin-top:-3.4%;color:#00FFAA;position: absolute;margin-left:16%;font-size:1.6vw;font-family: 'Rajdhani', sans-serif;}
-  .span-return{margin-top:-3.4%;color:#00FFAA;position:absolute;margin-left:13%;font-size:1.6vw;font-family: 'Rajdhani', sans-serif;}
-  .grey-radius{
-    width: 21%;
-        overflow: hidden;
-        padding: 13% 14% 19%;
-        display: flex;
-        border-radius: 15%/18%;
-        margin: -33% 72% 0;
-        background-image: linear-gradient(to bottom,#03CFE5,#02B557);
-        justify-content: center;
-  }
-.price-des{font-size: 4.4vw;
-  font-size: 4.4vw;
-color: white;
-text-shadow: 0 0 3px black;
-font-family: 'Exo', sans-serif;
-margin-top: -8%;
-position: absolute;}
-.flightnum-des{text-shadow: 0 0 5px black;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    font-size: 1.5vw;
-    text-align: center;
+.departure-des{ margin-left: 5%;
+    font-size: 1.7vw;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;}
+  .return-des{ margin-left: 5%;
+    font-size: 1.7vw;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;}
+  .span-dep{margin-top: -3.1%;
     color: white;
     position: absolute;
+    margin-left: 14%;
+    font-size: 1.6vw;
+    font-family: 'Rajdhani', sans-serif;}
+  .span-return{margin-top: -3.1%;
+    color: white;
+    position: absolute;
+    margin-left: 11%;
+    font-size: 1.6vw;
+    font-family: 'Rajdhani', sans-serif;}
+  .grey-radius{
+    width: 21%;
+  overflow: hidden;
+  padding: 13% 14% 19%;
+  display: flex;
+  border-radius: 15%/18%;
+  margin: -31.9% 72% 0;
+  background-image: linear-gradient(180deg,#3BC3DB,#18B257);
+  justify-content: center;
+  }
+.price-des{font-size: 4vw;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    margin-top: -8%;
+    position: absolute;}
+.flightnum-des{
+    font-weight: bold;
+    font-family: 'Quicksand';
+    font-size: 1.4vw;
+    text-align: center;
+    color: #2A2A74;
+    position: absolute;
     margin-top: 1%;}
-.transfer-des{font-size: 1.8vw;
+.transfer-des{ font-size: 1.8vw;
     text-shadow: 0 0 0.7px black;
     position: absolute;
-    border-radius: 0% 0% 17% 20%/49%;
+    border-radius: 0% 0% 17% 18%/49%;
     margin-top: 8.9%;
     margin-bottom: 0%;
-    background-image: linear-gradient(to bottom,#00F3FF,#00DBFF);
-    padding: 2% 5.9% 2%;
+    background-color: #38ABE1;
+    padding: 2% 5.85% 2%;
     display: flex;
     justify-content: center;
-    color: #4A77F4;
+    color: #DC2991;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;}
   @media only screen and (max-width:450px){
@@ -206,38 +222,48 @@ position: absolute;}
   @media only screen and (max-width:986px){
     .arrow-des{margin-left:23%;}
       .flightBox{width:90%;padding:3.2% 3.2% 0%;margin-left:5%;}.down-color{padding:6% 0 8%;margin-left:-4%;}
-      .departure-des{font-size: 2.7vw;margin-left:6%;}
-      .return-des{font-size:2.7vw;margin-left:6%;}
-      .span-dep{font-size:2.3vw;margin:-4.8% 21% 0;}
-      .span-return{font-size:2.3vw;margin:-4.8% 17% 0%;}
-      .price-des{font-size: 5.5vw;margin-top:-14%;
+      .departure-des{  font-size: 2.2vw;
+    margin-left: 6%;}
+      .return-des{font-size: 2.2vw;
+    margin-left: 6%;}
+      .span-dep{ font-size: 2vw;
+    margin: -4% 18% 0;}
+      .span-return{ font-size: 2vw;
+    margin: -3.9% 14% 0%;}
+      .price-des{ font-size: 4.5vw;
+    margin-top: -15%;
     }
       .flightnum-des{
-    font-size: 2.5vw;margin-top:-2%;}
-      .transfer-des{font-size:2.5vw;padding: 2% 6.6% 2%;
-    margin-top: 11%;}
+        font-size: 2vw;
+        margin-top: -5%;}
+      .transfer-des{margin-right: 0.1%;
+    padding: 2% 8.8% 3%;
+    margin-top: 5.5%;}
       .grey-radius{
-    padding: 22% 10% 22%;
-    margin-top:-44%;
-    margin-left:70%;
-    width: 34%;}
+        padding: 22% 10% 15%;
+         margin-top: -41.3%;
+         margin-left: 70%;
+         width: 34%;}
   }
  @media only screen and (max-width:500px){
    .price-des{
-     margin-top:-11%;
+     margin-top: -12%;
    }
    .flightnum-des{
-     margin-top:1%;
+   margin-top: -1%;
    }
    .arrow-des{margin-left:24%;}
      .flightBox{width:95%;padding:3.2% 3.2% 0%;margin-left:2.5%;}.down-color{padding:6% 0 10%;}
-       .grey-radius{padding: 17% 13% 22%;margin-top:-45%}
+       .grey-radius{ padding: 17% 13% 19%;
+    margin-top: -42.5%;}
 
      .imgg{display: none;}.imgg-mobile{display: block;  position: relative; width:90%;margin-top:2.8%;margin-left: 5%;box-shadow:0 0 4px #00FF67;
        border-radius: 10%/20%; border: none;}
 
      .transfer-des{
-         margin: 13% 0% 0%;margin-right:0.4%;padding:2.4% 7.47% 2%;}
+       margin: 9.7% 0% 0%;
+   margin-right: 0.4%;
+   padding: 2.4% 9.6% 2.4%;}
      .logo-img-home{
        margin:-49.2% 4% 0;
        width:16%;

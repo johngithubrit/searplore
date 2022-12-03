@@ -2,7 +2,7 @@
   "name": "searplore",
   "version": "1.0.0",
   "description": "Hotel info ",
-  "main": "backend.js","type": "module",
+  "main": "backend.js",
   "scripts": {
     "start": "node backend.js"
     "test": "\"hey\""

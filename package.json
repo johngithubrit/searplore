@@ -4,6 +4,7 @@
   "description": "Hotel info ",
   "main": "backend.js",
   "scripts": {
+    "start": "node backend.js"
     "test": "\"hey\""
   },
   "author": "Fevin Clitus Fernandes",

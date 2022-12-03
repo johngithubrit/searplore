@@ -1,4 +1,3 @@
-var PORT = process.env.PORT || 5000
 const express = require("express");
 const axios = require("axios");
 const bodyParser = require("body-parser");
@@ -12,6 +11,7 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
 const app = express();
+var PORT = process.env.PORT || 3000
 const oriArr=[];
 var search = "";
 var searchStr = "";

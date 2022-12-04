@@ -2,9 +2,12 @@
   "name": "searplore",
   "version": "1.0.0",
   "description": "Hotel info ",
-  "main": "backend.js",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node backend.js"
+    "start": "node backend.js",
     "test": "\"hey\""
   },
   "author": "Fevin Clitus Fernandes",

@@ -1,4 +1,5 @@
 const express = require("express");
+const product = require("./api/product");
 const axios = require("axios");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -12,6 +13,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
 const app = express();
 var PORT = process.env.PORT || 3000
+app.use("/api/product", product);
 const oriArr=[];
 var search = "";
 var searchStr = "";

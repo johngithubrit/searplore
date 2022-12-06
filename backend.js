@@ -92,6 +92,7 @@ app.use(express.static("public"));
       axios.request(options).then(function(response) {
         var l = Object.entries(response.data.data);
         numLength= l.length;
+          console.log(numLength);
          if(searchStr === "" || numLength === 0){
           numLength = "";
           heightSearch = 0;

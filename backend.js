@@ -146,8 +146,9 @@ app.use(express.static("public"));
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
         kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfpad:widthPading});
       }else{
-          console.log(l);
-        res.redirect("/register");
+            res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr
+          ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
+        kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfpad:widthPading});
       }
     }).catch(function (error) {
       res.render("main",{kindOfOri:oriArr,kindOfDest:destArr,kindOfPrice:priceArr,kindOfFlightN:flightnArr,kindOfDept:departArr

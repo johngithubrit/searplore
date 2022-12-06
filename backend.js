@@ -146,7 +146,7 @@ app.use(express.static("public"));
           ,kindOflength:numLength,KindOfReturn:returnArr,kindOfTransfers:transferArr,kindOfAir:airnameArr,kindOfNum:numArr,kindOfHeight:heightSearch,
         kindOfWidth:widthSearch,kindOfAbout:seaAbt,kindOfSearch:resAbt,kindOfBox:heightBox,kindOfpad:widthPading});
       }else{
-          console.log(req);
+          console.log(l);
         res.redirect("/register");
       }
     }).catch(function (error) {

@@ -68,7 +68,7 @@ app.use(express.static("public"));
     passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "https://searplore.cyclic.app/google/callback",
+    callbackURL: "https://searplore.cyclic.app/auth/google/search",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {

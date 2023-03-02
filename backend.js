@@ -219,5 +219,5 @@ app.use(express.static("public"));
 
 
 app.listen(PORT,function(){
-  console.log("server has started successfully.");
+  console.log("srver has started successfully.");
 });
